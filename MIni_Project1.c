@@ -134,7 +134,8 @@ void Change_Engine_Temp(struct vehicle *veh){
 	scanf(" %f",&(veh->Engine_Temperature));
 }
 
-
+//What happens when the engine is on.
+//Each option calls a previously defined function to change a the value requested
 void Engine_On(struct vehicle *veh){
 	char input;
 	while(1){
