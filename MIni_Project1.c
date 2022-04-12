@@ -97,12 +97,14 @@ void Check_Change(struct vehicle *veh){
 	if(veh->Speed==30){
 		if(veh->AC_Status==OFF){
 			veh->AC_Status=ON;
-			veh->Room_Temperature*=(5.00/4.00);
-			veh->Room_Temperature++;
-			veh->Engine_Temp_Ctrl_Status=ON;
-			veh->Engine_Temperature*=(5.00/4.00);
-			veh->Engine_Temperature++;
 		}
+		veh->Room_Temperature*=(5.00/4.00);
+		veh->Room_Temperature++;
+		if(veh->Engine_Temp_Ctrl_Status==OFF){
+			veh->Engine_Temp_Ctrl_Status=ON;
+		}
+		veh->Engine_Temperature*=(5.00/4.00);
+		veh->Engine_Temperature++;
 	}
 }
 
