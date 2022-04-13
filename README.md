@@ -15,10 +15,11 @@ The vehicle is defined as a struct that has 7 attributes
 ## Program steps
 ### Engine Off
 Initial state of the engine is **OFF**, the user is asked to choose what to do from the following:
-a. Turn on the vehicle engine
-b. Turn off the vehicle engine
-c. Quit the system
-
+<ol type="a">
+<li>Turn on the vehicle engine<li/>
+<li>Turn off the vehicle engine<li/>
+<li>Quit the system<li/>
+<ol/>
 Choosing 'a' turns on the engine and gives the new list of actions to the user.
 Choosing 'b' returns the same list to the user.
 Choosing 'c' terminates the program.
