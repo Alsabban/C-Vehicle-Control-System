@@ -23,7 +23,7 @@ Choosing 'a' turns on the engine and gives the new list of actions to the user.
 Choosing 'b' returns the same list to the user.
 Choosing 'c' terminates the program.
 
-###Engine On
+### Engine On
 When the engine is turned on, the user is asked to choose what to do from the following:
 a. Turn off the engine
 b. Set the traffic light color.
