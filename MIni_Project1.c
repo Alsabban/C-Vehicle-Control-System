@@ -3,7 +3,7 @@
 #define WITH_ENGINE_TEMP_CONTROLLER 1
 //enum defining status
 enum status{
-	ON=1,OFF=0
+	OFF=0,ON=1
 };
 
 //Vehicle defined as structure
