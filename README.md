@@ -10,7 +10,7 @@ The vehicle is defined as a struct that has 7 attributes
 - Engine Temperature (Sensor)
 - Engine Temperature control status(ON/OFF)
 
-**Sensor readings are read as input from user for simulation**
+***Sensor readings are read as input from user for simulation***
 
 ## Program steps
 ### Engine Off
@@ -32,7 +32,7 @@ When the engine is turned on, the user is asked to choose what to do from the fo
     <li>Set the room temperature (Temperature Sensor)</li>
     <li>Set the engine temperature (Engine Temperature Sensor)</li>
 </ol>
-**engine must be off to terminate the program**
+***Engine must be off to terminate the program***
 
 ## Automation
 The following list shows what automatically happens when the user changes the sensor readings:
