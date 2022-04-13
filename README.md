@@ -32,6 +32,7 @@ When the engine is turned on, the user is asked to choose what to do from the fo
     <li>Set the room temperature (Temperature Sensor)</li>
     <li>Set the engine temperature (Engine Temperature Sensor)</li>
 </ol>
+
 ***Engine must be off to terminate the program***
 
 ## Automation
