@@ -16,21 +16,22 @@ The vehicle is defined as a struct that has 7 attributes
 ### Engine Off
 Initial state of the engine is **OFF**, the user is asked to choose what to do from the following:
 <ol type="a">
-<li>Turn on the vehicle engine<li/>
-<li>Turn off the vehicle engine<li/>
-<li>Quit the system<li/>
-<ol/>
-Choosing 'a' turns on the engine and gives the new list of actions to the user.
-Choosing 'b' returns the same list to the user.
-Choosing 'c' terminates the program.
+    <li>Turn on the vehicle engine</li>
+    <li>Turn off the vehicle engine</li>
+    <li>Quit the system</li>
+</ol>
+- Choosing 'a' turns on the engine and gives the new list of actions to the user.
+- Choosing 'b' returns the same list to the user.
+- Choosing 'c' terminates the program.
 
 ### Engine On
 When the engine is turned on, the user is asked to choose what to do from the following:
-a. Turn off the engine
-b. Set the traffic light color.
-c. Set the room temperature (Temperature Sensor)
-d. Set the engine temperature (Engine Temperature Sensor)
-
+<ol type="a">
+    <li>Turn off the engine</li>
+    <li>Set the traffic light color.</li>
+    <li>Set the room temperature (Temperature Sensor)</li>
+    <li>Set the engine temperature (Engine Temperature Sensor)</li>
+</ol>
 *engine must be off to terminate the program*
 
 ## Automation
